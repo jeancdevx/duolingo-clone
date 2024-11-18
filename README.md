@@ -382,30 +382,3 @@ and do not expose them publicly.
 [![Tailwind CSS](https://skillicons.dev/icons?i=tailwind 'Tailwind CSS')](https://tailwindcss.com/ 'Tailwind CSS')
 [![Vercel](https://skillicons.dev/icons?i=vercel 'Vercel')](https://vercel.app/ 'Vercel')
 [![Postgresql](https://skillicons.dev/icons?i=postgres 'Postgresql')](https://www.postgresql.org/ 'Postgresql')
-
-## 🚉 Stats
-
-[![Stats for Lingo](./github/images/stats.svg 'Stats for Lingo')](https://pagespeed.web.dev/analysis?url=https://lingo-clone.vercel.app/ 'Stats for Lingo')
-
-## 🚀 PageSpeed Insights
-
-PageSpeed Insights is a tool provided by Google that helps you analyze the performance of your web pages. It provides insights into how well your pages are performing and offers suggestions for improvement.
-
-### Usage
-
-To use PageSpeed Insights for your project, follow these steps:
-
-1. Go to the [PageSpeed Insights](https://pagespeed.web.dev/) website.
-2. Enter the URL of your web page in the provided field.
-3. Click the "Analyze" button.
-4. Review the performance scores and suggestions provided by PageSpeed Insights.
-
-### Integration
-
-You can integrate PageSpeed Insights into your development workflow to continuously monitor and improve the performance of your web pages. Here are a few ways to do that:
-
-1. **Automated Testing**: Use tools like Lighthouse CI to automate performance testing as part of your CI/CD pipeline.
-2. **Performance Budgets**: Set performance budgets and monitor them using tools like WebPageTest or SpeedCurve.
-3. **Performance Audits**: Regularly perform performance audits using PageSpeed Insights and other performance testing tools.
-
-By integrating PageSpeed Insights into your development process, you can ensure that your web pages are optimized for performance and provide a better user experience.
