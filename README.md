@@ -353,32 +353,32 @@ CLERK_ADMIN_IDS="user_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 10. Save and Secure:
 
-- Save the changes to the `.env` file.
+    - Save the changes to the `.env` file.
 
 11. Install Project Dependencies using `npm install --legacy-peer-deps` or
     `yarn install --legacy-peer-deps`.
 
 12. Run the Seed Script:
 
-In the same terminal, run the following command to execute the seed script:
+    In the same terminal, run the following command to execute the seed script:
 
-```bash
-npm run db:push && npm run db:prod
-```
+    ```bash
+    npm run db:push && npm run db:prod
+    ```
 
-This command uses `npm` to execute the Typescript file (`scripts/prod.ts`) and
-writes challenges data in database.
+    This command uses `npm` to execute the Typescript file (`scripts/prod.ts`)
+    and writes challenges data in database.
 
 13. Verify Data in Database:
 
-Once the script completes, check your database to ensure that the challenges
-data has been successfully seeded.
+    Once the script completes, check your database to ensure that the challenges
+    data has been successfully seeded.
 
 14. Now app is fully configured 👍 and you can start using this app using either
     one of `npm run dev` or `yarn dev`.
 
-**NOTE:** Please make sure to keep your API keys and configuration values secure
-and do not expose them publicly.
+> [!IMPORTANT] Please make sure to keep your API keys and configuration values
+> secure and do not expose them publicly.
 
 ## 🧑🏻‍💻 Tech Stack
 
