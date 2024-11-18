@@ -24,7 +24,7 @@ const Units = async () => {
       unitsData
     ])
 
-  if (!userProgress ?? !userProgress?.activeCourse) redirect('/courses')
+  if (!userProgress?.activeCourse) redirect('/courses')
 
   if (!courseProgress) redirect('/courses')
 

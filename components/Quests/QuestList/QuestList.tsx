@@ -14,7 +14,7 @@ const QuestList = async () => {
 
   const [userProgress] = await Promise.all([userProgressData])
 
-  if (!userProgress ?? !userProgress?.activeCourse) redirect('/courses')
+  if (!userProgress?.activeCourse) redirect('/courses')
 
   return (
     <div className='space-y-4 rounded-xl border-2 p-4'>

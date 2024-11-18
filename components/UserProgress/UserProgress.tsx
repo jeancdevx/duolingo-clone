@@ -17,7 +17,7 @@ const UserProgress = async () => {
     userSubscriptionData
   ])
 
-  if (!userProgress ?? !userProgress?.activeCourse) redirect('/courses')
+  if (!userProgress?.activeCourse) redirect('/courses')
 
   const hasActiveSubscription = !!userSubscription?.isActive
 
