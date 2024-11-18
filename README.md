@@ -19,7 +19,250 @@ duolingo-clone/
         |-- [[...sign-up]]
           |-- page.tsx
       |-- layout.tsx
-
+    |-- (main)
+      |-- courses
+        |-- page.tsx
+      |-- leaderboard
+        |-- page.tsx
+      |-- learn
+        |-- page.tsx
+      |-- quests
+        |-- page.tsx
+      |-- shop
+        |-- page.tsx
+      |-- layout.tsx
+    |-- (marketing)
+      |-- layout.tsx
+      |-- page.tsx
+    |-- admin
+      |-- app.tsx
+      |-- page.tsx
+    |-- api
+      |-- challengeOptions
+        |-- [challengeOptionId]
+          |-- route.ts
+        |-- route.ts
+      |-- challenges
+        |-- [challengeId]
+          |-- route.ts
+        |-- route.ts
+      |-- courses
+        |-- [courseId]
+          |-- route.ts
+        |-- route.ts
+      |-- lessons
+        |-- [lessonId]
+          |-- route.ts
+        |-- route.ts
+      |-- units
+        |-- [unitId]
+          |-- route.ts
+        |-- route.ts
+      |-- webhooks
+        |-- stripe
+          |-- route.ts
+      |-- buttons
+        |-- page.tsx
+      |-- layout.tsx
+      |-- lesson
+        |-- [lessonId]
+          |-- page.tsx
+        |-- layout.tsx
+        |-- page.tsx
+      |-- loading.tsx
+  |- components/
+    |-- Admin
+      |-- Challenge
+        |-- ChallengeCreate.tsx
+        |-- ChallengeEdit.tsx
+        |-- ChallengeList.tsx
+        |-- index.ts
+      |-- ChallengeOption
+        |-- ChallengeOptionCreate.tsx
+        |-- ChallengeOptionEdit.tsx
+        |-- ChallengeOptionList.tsx
+        |-- index.ts
+      |-- Course
+        |-- CourseCreate.tsx
+        |-- CourseEdit.tsx
+        |-- CourseList.tsx
+        |-- index.ts
+      |-- Lesson
+        |-- index.ts
+        |-- LessonCreate.tsx
+        |-- LessonEdit.tsx
+        |-- LessonList.tsx
+      |-- Unit
+        |-- index.ts
+        |-- UnitCreate.tsx
+        |-- UnitEdit.tsx
+        |-- UnitList.tsx
+    |-- Courses
+      |-- Card
+        |-- Card.tsx
+        |-- index.ts
+      |-- LessonButton
+        |-- index.ts
+        |-- LessonButton.tsx
+      |-- List
+        |-- index.ts
+        |-- List.tsx
+      |-- Unit
+        |-- index.ts
+        |-- Unit.tsx
+        |-- UnitBanner.tsx
+    |-- Header
+      |-- Header.tsx
+      |-- index.ts
+    |-- Leaderboard
+      |-- LeaderboardList
+        |-- index.ts
+        |-- LeaderboardList.tsx
+    |-- Learn
+      |-- Units
+        |-- index.ts
+        |-- Units.tsx
+    |-- Lesson
+      |-- Card
+        |-- Card.tsx
+        |-- index.ts
+      |-- Challenge
+        |-- Challenge.tsx
+        |-- index.ts
+      |-- Footer
+        |-- Footer.tsx
+        |-- index.ts
+      |-- Header
+        |-- Header.tsx
+        |-- index.ts
+      |-- QuestionBubble
+        |-- index.ts
+        |-- QuestionBubble.tsx
+      |-- Quiz
+        |-- index.ts
+        |-- Quiz.tsx
+      |-- ResultCard
+        |-- index.ts
+        |-- ResultCard.tsx
+    |-- Loader
+      |-- index.ts
+      |-- Loader.tsx
+    |-- Logo
+      |-- index.ts
+      |-- Logo.tsx
+    |-- Marketing
+      |-- Footer
+        |-- constants.ts
+        |-- Footer.tsx
+        |-- index.ts
+      |-- Header
+        |-- Header.tsx
+        |-- index.ts
+    |-- MobileHeader
+      |-- index.ts
+      |-- MobileHeader.tsx
+    |-- MobileSidebar
+      |-- index.ts
+      |-- MobileSidebar.tsx
+    |-- Modals
+      |-- ExitModal.tsx
+      |-- HeartsModal.tsx
+      |-- PracticeModal.tsx
+    |-- Promo
+      |-- index.ts
+      |-- Promo.tsx
+    |-- Quests
+      |-- QuestList
+        |-- index.ts
+        |-- QuestList.tsx
+    |-- Shop
+      |-- Items
+        |-- index.ts
+        |-- Items.tsx
+    |-- Sidebar
+      |-- constants.ts
+      |-- index.ts
+      |-- Sidebar.tsx
+      |-- SidebarItem.tsx
+    |-- Skeletons
+      |-- index.ts
+      |-- Skeletons.tsx
+    |-- ui
+      |-- Avatar.tsx
+      |-- Badge.tsx
+      |-- Button.tsx
+      |-- Dialog.tsx
+      |-- Progress.tsx
+      |-- Separator.tsx
+      |-- Sheet.tsx
+      |-- Skeleton.tsx
+      |-- Sonner.tsx
+    |-- UserProgress
+      |-- index.ts
+      |-- UserProgress.tsx
+    |-- Wrappers
+      |-- FeedWrapper.tsx
+      |-- StickyWrapper.tsx
+  |- constants.ts
+  |- db/
+    |-- drizzle.ts
+    |-- queries.ts
+    |-- schema.ts
+  |- lib/
+    |-- admin.ts
+    |-- stripe.ts
+    |-- utils.ts
+  |- public/
+    |-- boy.svg
+    |-- es.svg
+    |-- finish.svg
+    |-- fr.svg
+    |-- girl.svg
+    |-- heart.svg
+    |-- hero.svg
+    |-- hr.svg
+    |-- it.svg
+    |-- jp.svg
+    |-- leaderboard.svg
+    |-- learn.svg
+    |-- man.svg
+    |-- mascot_bad.svg
+    |-- mascot_sad.svg
+    |-- mascot.svg
+    |-- points.svg
+    |-- quests.svg
+    |-- robot.svg
+    |-- shop.svg
+    |-- unlimited.svg
+    |-- woman.svg
+    |-- zombie.svg
+  |- scripts/
+    |-- production.ts
+    |-- reset.ts
+    |-- seed.ts
+  |- store/
+    |-- use-exit-modal.ts
+    |-- use-hearts-modal.ts
+    |-- use-practice-modal.ts
+  |- styles/
+    |-- globals.css
+  |- .eslintrc.json
+  |- .gitignore
+  |- .husky/
+    |-- commit-msg
+    |-- pre-commit
+  |- .lintstagedrc
+  |- .prettierignore
+  |- .prettierrc
+  |- commitlint.config.ts
+  |- components.json
+  |- drizzle.config.ts
+  |- middleware.ts
+  |- next.config.mjs
+  |- package.json
+  |- postcss.config.mjs
+  |- tailwind.config.ts
+  |- tsconfig.json
 ```
 
 ## 🌟 Getting Started
@@ -143,3 +386,26 @@ and do not expose them publicly.
 ## 🚉 Stats
 
 [![Stats for Lingo](./github/images/stats.svg 'Stats for Lingo')](https://pagespeed.web.dev/analysis?url=https://lingo-clone.vercel.app/ 'Stats for Lingo')
+
+## 🚀 PageSpeed Insights
+
+PageSpeed Insights is a tool provided by Google that helps you analyze the performance of your web pages. It provides insights into how well your pages are performing and offers suggestions for improvement.
+
+### Usage
+
+To use PageSpeed Insights for your project, follow these steps:
+
+1. Go to the [PageSpeed Insights](https://pagespeed.web.dev/) website.
+2. Enter the URL of your web page in the provided field.
+3. Click the "Analyze" button.
+4. Review the performance scores and suggestions provided by PageSpeed Insights.
+
+### Integration
+
+You can integrate PageSpeed Insights into your development workflow to continuously monitor and improve the performance of your web pages. Here are a few ways to do that:
+
+1. **Automated Testing**: Use tools like Lighthouse CI to automate performance testing as part of your CI/CD pipeline.
+2. **Performance Budgets**: Set performance budgets and monitor them using tools like WebPageTest or SpeedCurve.
+3. **Performance Audits**: Regularly perform performance audits using PageSpeed Insights and other performance testing tools.
+
+By integrating PageSpeed Insights into your development process, you can ensure that your web pages are optimized for performance and provide a better user experience.
