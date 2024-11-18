@@ -11,6 +11,8 @@
     "db:studio": "bunx drizzle-kit studio",
     "db:push": "bunx drizzle-kit push",
     "db:seed": "bun ./scripts/seed.ts",
+    "db:reset": "bun ./scripts/reset.ts",
+    "db:production": "bun ./scripts/production.ts",
     "prepare": "husky"
   },
   "dependencies": {
@@ -28,7 +30,9 @@
     "lucide-react": "0.435.0",
     "next": "14.2.13",
     "next-themes": "0.3.0",
+    "ra-data-simple-rest": "5.2.3",
     "react": "18",
+    "react-admin": "5.2.3",
     "react-circular-progressbar": "2.1.0",
     "react-confetti": "6.1.0",
     "react-dom": "18",
