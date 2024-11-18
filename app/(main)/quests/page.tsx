@@ -19,7 +19,7 @@ const QuestsPage = async () => {
 
   const [userProgress] = await Promise.all([userProgressData])
 
-  if (!userProgress ?? !userProgress?.activeCourse) redirect('/courses')
+  if (!userProgress?.activeCourse) redirect('/courses')
 
   return (
     <div className='flex flex-row-reverse gap-[48px] px-6'>
