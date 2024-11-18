@@ -172,7 +172,7 @@ export const getLesson = cache(async (id?: number) => {
     }
   })
 
-  if (!data ?? !data?.challenges) return null
+  if (!data?.challenges) return null
 
   const normalizedChallenges = data.challenges.map(challenge => {
     const completed =
