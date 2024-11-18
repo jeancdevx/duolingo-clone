@@ -11,7 +11,7 @@ const config = {
   prefix: '',
   theme: {
     container: {
-      center: 'true',
+      center: true,
       padding: '2rem',
       screens: {
         '2xl': '1400px'
@@ -53,11 +53,11 @@ const config = {
           foreground: 'hsl(var(--card-foreground))'
         },
         chart: {
-          '1': 'hsl(var(--chart-1))',
-          '2': 'hsl(var(--chart-2))',
-          '3': 'hsl(var(--chart-3))',
-          '4': 'hsl(var(--chart-4))',
-          '5': 'hsl(var(--chart-5))'
+          1: 'hsl(var(--chart-1))',
+          2: 'hsl(var(--chart-2))',
+          3: 'hsl(var(--chart-3))',
+          4: 'hsl(var(--chart-4))',
+          5: 'hsl(var(--chart-5))'
         }
       },
       borderRadius: {
