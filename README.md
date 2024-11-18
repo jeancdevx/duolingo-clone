@@ -2,6 +2,12 @@
 
 ![Lingo](./public/github/lingo.png)
 
+## Index
+
+- [🦞 Folder Structure](#-folder-structure)
+- [🌟 Getting Started](#-getting-started)
+- [🧑🏻‍💻 Tech Stack](#-tech-stack)
+
 ## 🦞 Folder Structure
 
 ```bash
