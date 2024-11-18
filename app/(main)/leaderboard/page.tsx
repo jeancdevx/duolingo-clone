@@ -2,7 +2,7 @@ import { Suspense } from 'react'
 
 import Image from 'next/image'
 
-import LeaderboardList from '@/components/Leaderboard/LeaderboardList/LeaderboardList'
+import LeaderboardList from '@/components/Leaderboard/LeaderboardList'
 import Loader from '@/components/Loader'
 import Promo from '@/components/Promo'
 import { Separator } from '@/components/ui/Separator'
