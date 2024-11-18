@@ -1,14 +1,16 @@
 import type { Metadata } from 'next'
 import { Nunito } from 'next/font/google'
 
-import '@/styles/globals.css'
-
 import { ClerkProvider } from '@clerk/nextjs'
+import { Analytics } from '@vercel/analytics/next'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 import ExitModal from '@/components/Modals/ExitModal'
 import HeartsModal from '@/components/Modals/HeartsModal'
 import { PracticeModal } from '@/components/Modals/PracticeModal'
 import { Toaster } from '@/components/ui/Sonner'
+
+import '@/styles/globals.css'
 
 const font = Nunito({ subsets: ['latin'] })
 
@@ -35,6 +37,9 @@ export default function RootLayout({
           <PracticeModal />
 
           {children}
+
+          <Analytics />
+          <SpeedInsights />
         </body>
       </html>
     </ClerkProvider>
