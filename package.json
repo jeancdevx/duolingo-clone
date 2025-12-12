@@ -30,7 +30,7 @@
     "dotenv": "16.4.5",
     "drizzle-orm": "0.33.0",
     "lucide-react": "0.435.0",
-    "next": "14.2.13",
+    "next": "14.2.35",
     "next-themes": "0.3.0",
     "ra-data-simple-rest": "5.2.3",
     "react": "18",
